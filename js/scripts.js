@@ -9,44 +9,15 @@ let actualQuestions = 0;
 
 // PERGUNTAS
 // Estrutura de uma pergunta
-const questions = [
-  {
-    question: "PHP foi desenvolvido para qual fim?",
-    answers: [
-      { answer: "Back-end", correct: true },
-      { answer: "Front-end", correct: false },
-      { answer: "Sistema Operacional", correct: false },
-      { answer: "Banco de dados", correct: false },
-    ],
-  },
-  {
-    question: "Qual seletor corresponde ao ID no css?",
-    answers: [
-      { answer: ";", correct: false },
-      { answer: ".", correct: false },
-      { answer: "#", correct: true },
-      { answer: ">", correct: false },
-    ],
-  },
-  {
-    question: "Como declarar uma variavel em JavaScript?",
-    answers: [
-      { answer: "$let / $var / $const", correct: false },
-      { answer: "let / var / const", correct: true },
-      { answer: "$=let / $=var / $=const", correct: false },
-      { answer: "#let / #var / #const", correct: false },
-    ],
-  },
-];
-
+import questions from "../modules/questionsPhp.js";
 // SUBISTITUIÇÂO DO QUIZZ PARA A PRIMEIRA PERGUNTA
 function init() {
   // Criar a primeira pergunta Aleatoria
-  createQuestion(getRandomInt(0, 2));
+  createQuestion(getRandomInt(0, questions.length));
 }
-
+//Função para gerar numero aleatorio
 function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(Math.random() * (max - min )) + min;
 }
 
 // cria uma pergunta
@@ -120,7 +91,7 @@ function nextQuestion() {
       return;
     }
     //Deixar as questões Aleatorias nas proximas perguntas
-    createQuestion(getRandomInt(0, 1));
+    createQuestion(getRandomInt(0, questions.length));
   }, 1500);
 }
 
