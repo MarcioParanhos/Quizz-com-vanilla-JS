@@ -1,0 +1,20 @@
+[
+  {
+    "question": "PHP foi desenvolvido para qual fim?",
+    "answers": [
+      { "answer": "Back-end", "correct": true },
+      { "answer": "Front-end", "correct": false },
+      { "answer": "Sistema Operacional", "correct": false },
+      { "answer": "Banco de dados", "correct": false }
+    ]
+  },
+  {
+    "question": "PHP foi desenvolvido para qual fim?",
+    "answers": [
+      { "answer": "Back-end", "correct": true },
+      { "answer": "Front-end", "correct": false },
+      { "answer": "Sistema Operacional", "correct": false },
+      { "answer": "Banco de dados", "correct": false }
+    ]
+  }
+]
