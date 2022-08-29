@@ -85,7 +85,7 @@ function nextQuestion() {
   //Timer para usuario ver as respostas
   setTimeout(function () {
     //Verifica se ainda há perguntas
-    if (actualQuestions >= questions.length) {
+    if (actualQuestions >= 10) {
       //apresenta a mensagem de sucesso
       showSuccessMessage();
       return;
@@ -108,7 +108,7 @@ function showSuccessMessage() {
   correctAnswers.textContent = points;
   //Alterar o total de perguntas
   const totalQuestions = document.querySelector("#questions-qty");
-  totalQuestions.textContent = questions.length;
+  totalQuestions.textContent = 10;
 }
 
 //Mostra ou esconde o score

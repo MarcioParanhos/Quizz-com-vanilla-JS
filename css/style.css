@@ -17,8 +17,6 @@ body {
   padding: 40px 0;
   text-align: center;
   background-color: #006a6a;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
 }
 
 /* SCORE CONTAINER */
@@ -183,4 +181,12 @@ body {
   width: 100vw;
   height: 50px;
   background-color: #006a6a;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p span {
+  font-weight: bold;
 }
