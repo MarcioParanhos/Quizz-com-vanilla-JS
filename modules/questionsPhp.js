@@ -13,8 +13,8 @@ const questions = [
     answers: [
       { answer: "2000", correct: false },
       { answer: "1990", correct: false },
-      { answer: "1995", correct: false },
-      { answer: "1994", correct: true },
+      { answer: "1995", correct: true },
+      { answer: "1994", correct: false },
     ],
   },
   {
@@ -117,12 +117,129 @@ const questions = [
     ],
   },
   {
-    question: "O que é necessário para usar a função de imagem??",
+    question: "O que é necessário para usar a função de imagem?",
     answers: [
       { answer: "A biblioteca BM", correct: false },
       { answer: "A biblioteca GD", correct: true },
       { answer: "A biblioteca XT", correct: false },
       { answer: "A biblioteca HR", correct: false },
+    ],
+  },
+  {
+    question: "Considere $x = 5 e $y = 7 como imprimir o resultado?",
+    answers: [
+      { answer: "echo 5 + 7", correct: false },
+      { answer: "echo_print $5 + $7", correct: false },
+      { answer: "echo $x + $y", correct: true },
+      { answer: "print_echo $x + y", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de terminar uma instrução PHP?",
+    answers: [
+      { answer: ";", correct: true },
+      { answer: ".  ", correct: false },
+      { answer: "New Line", correct: false },
+      { answer: "</php>", correct: false },
+    ],
+  },
+  {
+    question: "A sintaxe do PHP é mais semelhante a:",
+    answers: [
+      { answer: "VBScript", correct: false },
+      { answer: "Python", correct: false },
+      { answer: "Pearl e 'C'", correct: false },
+      { answer: "JavaScript", correct: true },
+    ],
+  },
+  {
+    question: "Como você obtém informações de um formulário enviado usando o método 'get'?",
+    answers: [
+      { answer: "Request.QueryString;", correct: false },
+      { answer: "$_GET[];", correct: true },
+      { answer: "Request.Form;", correct: false },
+      { answer: "$_GET.FORM[];", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de incluir o arquivo 'time.inc' ?",
+    answers: [
+      { answer: "<?php include file = 'time.inc'; ?>", correct: false },
+      { answer: "<?php include 'time.inc'; ?>", correct: true },
+      { answer: "<!-- include file = 'time.inc' -->", correct: false },
+      { answer: "<?php include: 'time.inc'; ?>", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de criar uma função em PHP?",
+    answers: [
+      { answer: "creat function myFunction()", correct: false },
+      { answer: "create myFunction()", correct: false },
+      { answer: "myFunction create()", correct: false },
+      { answer: "function myFunction()", correct: true },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de abrir o arquivo 'time.txt' como legível?",
+    answers: [
+      { answer: "open('time.txt');", correct: true },
+      { answer: "fopen('time.txt', r);", correct: false },
+      { answer: "open('time.txt', read);", correct: false },
+      { answer: "fopen('time.txt', read);", correct: false },
+    ],
+  },
+  {
+    question: "Qual variável superglobal contém informações sobre cabeçalhos, caminhos e locais de script?",
+    answers: [
+      { answer: "$_SERVER", correct: true },
+      { answer: "$_GET", correct: false },
+      { answer: "$_GLOBALS", correct: false },
+      { answer: "$_SESSION", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de adicionar 1 à variável $count?",
+    answers: [
+      { answer: "count + 1;", correct: false },
+      { answer: "$count = +1;", correct: false },
+      { answer: "count ++;", correct: true },
+      { answer: "++ $count;", correct: false },
+    ],
+  },
+  {
+    question: "Qual é a maneira correta de adicionar um comentário em PHP?",
+    answers: [
+      { answer: "<coment>...</coment>", correct: false },
+      { answer: "/*...*/", correct: false },
+      { answer: "*|...|*", correct: false },
+      { answer: "<!--...-->>", correct: true },
+    ],
+  },
+  {
+    question: "Qual dessas variáveis ​​tem um nome ilegal?",
+    answers: [
+      { answer: "my_var", correct: false },
+      { answer: "my-var", correct: true },
+      { answer: "myVar", correct: false },
+      { answer: "myvar", correct: false },
+    ],
+  },
+  {
+    question: "Como você cria um cookie em PHP?",
+    answers: [
+      { answer: "makecookie()", correct: false },
+      { answer: "createcookie()", correct: false },
+      { answer: "setcookie()", correct: true },
+      { answer: "startcookie()", correct: false },
+    ],
+  },
+  {
+    question: "Qual operador é usado para verificar se dois valores são iguais e do mesmo tipo de dados?",
+    answers: [
+      { answer: "===!", correct: false },
+      { answer: "=!", correct: false },
+      { answer: "=", correct: false },
+      { answer: "===", correct: true },
     ],
   },
 ];
