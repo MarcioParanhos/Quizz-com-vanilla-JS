@@ -137,6 +137,11 @@ body {
   #quizz-container {
     border: none;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #quizz-container a{
+    text-align: center;
   }
   #answers-box button {
     width: 100%;
