@@ -72,6 +72,12 @@ body {
   border: 1px solid #fbf8f3;
   padding: 25px;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+#quizz-container a {
+  text-align: center;
+  height: 18px;
 }
 #question {
   text-align: center;
