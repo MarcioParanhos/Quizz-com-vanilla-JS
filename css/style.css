@@ -220,6 +220,7 @@ body {
   color: #fbf8f3;
 }
 #question-number {
+  font-weight: 400;
   margin: 0 auto;
   text-align: center;
   margin-top: -35px;
