@@ -1,5 +1,6 @@
 // DECLARAÇÂO DE VARIAVEIS
 const question = document.querySelector("#question");
+const questionNumber = document.querySelector("#question-number");
 const answersBox = document.querySelector("#answers-box");
 const quizzContainer = document.querySelector("#quizz-container");
 const scoreContainer = document.querySelector("#score-container");
@@ -41,7 +42,7 @@ if (data.tech === "php") {
       numberNoRepeat.push(numberRandom);
       return numberRandom;
     } else {
-      //Chama uma função pra escolher outro numero aleatorio caso o numero ja foi sorteado  
+      //Chama uma função pra escolher outro numero aleatorio caso o numero ja foi sorteado
       nextQuestionRandom();
     }
   }
@@ -62,7 +63,9 @@ if (data.tech === "php") {
     });
     //Alterar o texto da pergunta
     const questionText = question.querySelector("#question-text");
+    const questionNum = questionNumber.querySelector("#select-number");
     questionText.textContent = questionsPhp[i].question;
+    questionNum.textContent = numberNoRepeat.length;
     //   Insere as Alternativas
     questionsPhp[i].answers.forEach(function (answer, i) {
       //Cria o template do botão do quizz
@@ -164,4 +167,4 @@ if (data.tech === "php") {
   init();
 
   //INICIO DO CODIGO DE JAVA SCRIPT
-} 
+}

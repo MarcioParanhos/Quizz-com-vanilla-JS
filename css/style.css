@@ -15,7 +15,7 @@ body {
   display: none !important;
 }
 #main-title {
-  padding: 40px 0;
+  padding: 20px 0;
   text-align: center;
   background-color: #006a6a;
 }
@@ -67,9 +67,9 @@ body {
 
 /* QUIZZ CONTAINER */
 #quizz-container {
-  width: 40%;
-  margin: 50px auto;
-  border: 1px solid #fbf8f3;
+  width: 50%;
+  margin: 45px auto;
+  border: 2px solid #fbf8f3;
   padding: 25px;
   border-radius: 25px;
   display: flex;
@@ -81,8 +81,10 @@ body {
 }
 #question {
   text-align: center;
-  margin-bottom: 25px;
-  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 #question-number {
   font-weight: bold;
@@ -159,6 +161,14 @@ body {
   .card a {
     width: 350px !important;
   }
+  #question-number {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #006a6a;
+  }
+  #question {
+    margin-top: 20px;
+    font-weight: bold;
+  }
 }
 
 /* INDEX */
@@ -208,4 +218,12 @@ body {
 .footer p span {
   font-weight: bold;
   color: #fbf8f3;
+}
+#question-number {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -35px;
+  margin-bottom: 8px;
+  background-color: #232323;
+  width: 160px;
 }
