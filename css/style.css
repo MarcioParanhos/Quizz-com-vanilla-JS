@@ -228,3 +228,8 @@ body {
   background-color: #232323;
   width: 160px;
 }
+#language-title {
+  padding-bottom: 3px;
+  border-bottom: 3px solid #232323;
+  border-radius: 4px;
+}
