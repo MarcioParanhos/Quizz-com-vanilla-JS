@@ -293,7 +293,7 @@ if (data.tech === "js") {
     correctAnswers.textContent = points;
     //Alterar o total de perguntas
     const totalQuestions = document.querySelector("#questions-qty");
-    totalQuestions.textContent = 7;
+    totalQuestions.textContent = 15;
   }
 
   //Mostra ou esconde o score

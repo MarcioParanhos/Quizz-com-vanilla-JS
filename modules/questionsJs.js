@@ -99,12 +99,12 @@ const questionsJs = [
       ],
     },
     {
-      question: "Oque e usado para verificar quantidade de tipos de dados de sequência (BIT, BLOB e CHARACTER) ?",
+      question: "qual desses não e usado para declarar uma variavel em Javascript ?",
       answers: [
-        { answer: "number.sequence", correct: false },
-        { answer: "length", correct: true },
-        { answer: "leng", correct: false },
-        { answer: "sequence", correct: false },
+        { answer: "const", correct: false },
+        { answer: "var", correct: false },
+        { answer: "leng", correct: true },
+        { answer: "let", correct: false },
       ],
     },
     {
@@ -117,12 +117,12 @@ const questionsJs = [
       ],
     },
     {
-      question: "como declarar um array vazio no javascript?",
+      question: "Qual desses não e um Framwork/Lib de Javascript",
       answers: [
-        { answer: "let arr = null", correct: false },
-        { answer: "let arr = 0", correct: false },
-        { answer: "let arr = {}", correct: true },
-        { answer: "let arr = {0}", correct: false },
+        { answer: "Laravel", correct: true },
+        { answer: "React", correct: false },
+        { answer: "D3.js", correct: true },
+        { answer: "Glimmer.JS", correct: false },
       ],
     },
     {
@@ -139,7 +139,7 @@ const questionsJs = [
       answers: [
         { answer: "variavel.addEventListener('click', function () {...})", correct: true },
         { answer: "variavel.addEvenClick('click', function () {...})", correct: false },
-        { answer: "variavel.eventClick('click', function () {...})", correct: true },
+        { answer: "variavel.eventClick('click', function () {...})", correct: false },
         { answer: "variavel.addClick('Listener', function () {...})", correct: false },
       ],
     },
