@@ -62,6 +62,51 @@ const questionsJs = [
         { answer: "Robert James", correct: false },
       ],
     },
+    {
+      question: "Como declarar uma variavel que nao pode ser alterada?",
+      answers: [
+        { answer: "var variavel", correct: false },
+        { answer: "const variavel", correct: true },
+        { answer: "let variavel", correct: false },
+        { answer: "block variavel", correct: false },
+      ],
+    },
+    {
+      question: "Qual função e usada para ler dados no console do navegador?",
+      answers: [
+        { answer: "print.console()", correct: false },
+        { answer: "log.console()", correct: false },
+        { answer: "console.print()", correct: false },
+        { answer: "console.log()", correct: true },
+      ],
+    },
+    {
+      question: "Qual função e usada para mostrar um alerta no navegador?",
+      answers: [
+        { answer: "alert()", correct: true },
+        { answer: "alerta()", correct: false },
+        { answer: "start.alert()", correct: false },
+        { answer: "alert.init()", correct: false },
+      ],
+    },
+    {
+      question: "Oque e usado para verificar quantidade de tipos de dados de sequência (BIT, BLOB e CHARACTER) ?",
+      answers: [
+        { answer: "number.sequence", correct: false },
+        { answer: "length", correct: true },
+        { answer: "leng", correct: false },
+        { answer: "sequence", correct: false },
+      ],
+    },
+    {
+      question: "Oque e usado para verificar quantidade de tipos de dados de sequência (BIT, BLOB e CHARACTER) ?",
+      answers: [
+        { answer: "number.sequence", correct: false },
+        { answer: "length", correct: true },
+        { answer: "leng", correct: false },
+        { answer: "sequence", correct: false },
+      ],
+    },
   ];
   
   export default questionsJs;
