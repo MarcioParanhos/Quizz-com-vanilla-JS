@@ -270,7 +270,7 @@ if (data.tech === "js") {
     //Timer para usuario ver as respostas
     setTimeout(function () {
       //Verifica se ainda há perguntas
-      if (actualQuestions >= 7) {
+      if (actualQuestions >= 15) {
         //apresenta a mensagem de sucesso
         showSuccessMessage();
         return;
@@ -285,7 +285,7 @@ if (data.tech === "js") {
     hideOrShowQuizz();
     //TROCAR DADOS DA TABELA DE SUCESSO
     //   Calcular o score
-    const score = ((points / 7) * 100).toFixed(2);
+    const score = ((points / 15) * 100).toFixed(2);
     const displayScore = document.querySelector("#display-score span");
     displayScore.textContent = score.toString();
     //Alterar o numero de perguntas corretas

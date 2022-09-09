@@ -107,6 +107,42 @@ const questionsJs = [
         { answer: "sequence", correct: false },
       ],
     },
+    {
+      question: "Qual declaração abaixo seleciona um ID no javascript?",
+      answers: [
+        { answer: "selectId from document('id')", correct: false },
+        { answer: "document.selectId(#id)", correct: false },
+        { answer: "select.querySelector('#id)", correct: false },
+        { answer: "document.querySelector('#id')", correct: true },
+      ],
+    },
+    {
+      question: "como declarar um array vazio no javascript?",
+      answers: [
+        { answer: "let arr = null", correct: false },
+        { answer: "let arr = 0", correct: false },
+        { answer: "let arr = {}", correct: true },
+        { answer: "let arr = {0}", correct: false },
+      ],
+    },
+    {
+      question: "como declarar um array vazio no javascript?",
+      answers: [
+        { answer: "let arr = null", correct: false },
+        { answer: "let arr = 0", correct: false },
+        { answer: "let arr = []", correct: true },
+        { answer: "let arr = {0}", correct: false },
+      ],
+    },
+    {
+      question: "como inserir um evento de click no javascript?",
+      answers: [
+        { answer: "variavel.addEventListener('click', function () {...})", correct: true },
+        { answer: "variavel.addEvenClick('click', function () {...})", correct: false },
+        { answer: "variavel.eventClick('click', function () {...})", correct: true },
+        { answer: "variavel.addClick('Listener', function () {...})", correct: false },
+      ],
+    },
   ];
   
   export default questionsJs;
