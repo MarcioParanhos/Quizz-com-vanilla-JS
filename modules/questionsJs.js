@@ -121,7 +121,7 @@ const questionsJs = [
       answers: [
         { answer: "Laravel", correct: true },
         { answer: "React", correct: false },
-        { answer: "D3.js", correct: true },
+        { answer: "D3.js", correct: false },
         { answer: "Glimmer.JS", correct: false },
       ],
     },
